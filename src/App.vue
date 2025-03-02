@@ -24,8 +24,4 @@ import MedicamentHeader from './components/MedicamentHeader.vue';
     margin: 0;
     padding: 0;
 }
-
-.titre {
-    color: black
-}
 </style>
