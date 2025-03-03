@@ -1,4 +1,3 @@
-// une chose
 export class Medicament {
   constructor(id, denomination, formepharmaceutique, qte, photo) {
     this._id = id;
@@ -7,7 +6,6 @@ export class Medicament {
     this._qte = qte;
     this._photo = photo;
   }
-  // ---- getters
 
   get id() {
     return this._id;
@@ -19,7 +17,7 @@ export class Medicament {
 
   get formepharmaceutique() {
     return this._formepharmaceutique;
-  } // ---- setters
+  } 
 
   get quantite() {
     return this._qte;
@@ -29,7 +27,6 @@ export class Medicament {
     return this._photo;
   }
 
-  // -- toString
   toString() {
     return `--> ${this._denomination} `;
   }
