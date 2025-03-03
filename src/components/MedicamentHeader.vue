@@ -10,13 +10,11 @@ header {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #007BFF;
-  /* Bleu vif pour correspondre aux boutons */
+  background: #008020;
   color: white;
   font-size: 1.8em;
   font-weight: bold;
-  border-bottom: 4px solid #0056b3;
-  /* Ombre plus marquée */
+  border-bottom: 4px solid darkgreen;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
