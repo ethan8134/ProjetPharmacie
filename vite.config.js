@@ -5,7 +5,7 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [vue()],
   server: {
-    allowedHosts: ["d6p4gp-5173.csb.app"],
+    allowedHosts: ["fwskq6-5173.csb.app"],
   },
   resolve: {
     alias: {

@@ -2,7 +2,6 @@
     <div>
         <div class="search-container">
             <input type="text" v-model="searchTerm" placeholder="Rechercher un médicament..." />
-            <button @click="fetchMedications">Rechercher</button>
 
             <div class="dropdown">
                 <button @click="toggleDropdown">Filtrer ▼</button>
@@ -256,10 +255,6 @@ button {
     transition: background 0.3s ease-in-out;
 }
 
-button:hover {
-    background-color: gray;
-}
-
 table {
     width: 100%;
 
@@ -311,6 +306,10 @@ img {
     border-width: 1px;
 }
 
+.action-buttons button:hover {
+    background-color: darkgreen;
+}
+
 
 .button-container {
     margin-top: 15px;
@@ -341,7 +340,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-bottom: 15px;
+    margin: 20px auto;
     width: 100%;
 }
 
