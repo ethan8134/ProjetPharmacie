@@ -146,7 +146,7 @@ const resetForm = () => {
 }
 
 .form-group input:focus {
-    border-color: #007BFF;
+    border-color: #008020;
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
     outline: none;
     background-color: white;

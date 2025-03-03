@@ -247,7 +247,7 @@ body {
 
 
 button {
-    background-color: #007BFF;
+    background-color: #008020;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -257,12 +257,8 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: gray;
 }
-
-
-
-
 
 table {
     width: 100%;
@@ -281,7 +277,7 @@ td {
 }
 
 th {
-    background-color: #007BFF;
+    background-color: #008020;
     color: white;
 }
 
@@ -296,19 +292,19 @@ img {
 
 
 .action-buttons {
-    display: solid;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 5px;
-    height: 100%;
+    height: 100px;
 }
 
 .action-buttons button {
     flex: 1;
     padding: 8px 12px;
-    margin: auto 10px;
+    margin: auto 0px;
     height: 40px;
-    width: 100px;
+    width: 60px;
     text-align: center;
     border: solid;
     border-color: black;
@@ -327,7 +323,7 @@ img {
     max-width: 100%;
     padding: 12px;
     font-size: 18px;
-    background-color: #007BFF;
+    background-color: #008020;
     border-radius: 5px;
     border: none;
     color: white;
@@ -337,7 +333,7 @@ img {
 }
 
 .button-container button:hover {
-    background-color: #007BFF;
+    background-color: darkgreen;
 }
 
 .search-container {
@@ -360,14 +356,14 @@ img {
 }
 
 .search-container input:focus {
-    border-color: #007BFF;
+    border-color: #008020;
     outline: none;
 }
 
 .search-container button {
     padding: 10px 15px;
     font-size: 16px;
-    background-color: #007BFF;
+    background-color: #008020;
     border: none;
     border-radius: 5px;
     color: white;
@@ -376,7 +372,7 @@ img {
 }
 
 .search-container button:hover {
-    background-color: #0056b3;
+    background-color: darkgreen;
 }
 
 .dropdown {
@@ -409,7 +405,7 @@ img {
 }
 
 .dropdown-menu button:hover {
-    background: #007BFF;
+    background: #008020;
     color: white;
 }
 </style>
